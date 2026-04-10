@@ -1,4 +1,4 @@
-# Optimizer Benchmarking for Semantic Segmentation
+# Benchmarking Lion Against Standard Optimizers Across Multiple Tasks
 
 A clean, reproducible deep learning benchmark for comparing optimizers on **semantic segmentation** using **DeepLabV3-ResNet50** and **Pascal VOC 2012**.
 
@@ -196,3 +196,4 @@ From an engineering and portfolio perspective, this project demonstrates:
 ## Author
 
 Developed by **Ananya Jha, Himanshu Ranjan, Mayank, and Sethupathy Raghunathan Venkatraman**.
+

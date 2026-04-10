@@ -7,7 +7,7 @@
 \usepackage{xcolor}
 \usepackage{enumitem}
 \usepackage{subcaption}
-\usepackage{titlesec}
+\title{\vspace{-1.0em}An Empirical Study of Lion and Standard Optimizers Across Multiple Learning Tasks\vspace{-0.6em}}
 
 \hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue}
 \setlength{\parskip}{0.2em}
@@ -25,7 +25,6 @@
 \setlength{\tabcolsep}{5pt}
 \graphicspath{{report_figures/}}
 
-\title{\vspace{-1.0em}An Empirical Study of Different Optimizers Across Different Tasks\vspace{-0.6em}}
 \author{Ananya Jha \and Himanshu Ranjan \and Mayank \and Sethupathy Raghunathan Venkatraman}
 \date{\vspace{-0.8em}April 2026\vspace{-1.0em}}
 
@@ -219,3 +218,4 @@ Our next step is to extend the benchmark from Pascal VOC to \textbf{ADE20K} and 
 At the current stage, when all optimizers are compared under the same 25-epoch budget, \textbf{SGD} provides the best overall performance on Pascal VOC segmentation with DeepLabV3-ResNet50. \textbf{AdamW} is the strongest adaptive baseline and remains competitive, while \textbf{Adam} trails both SGD and AdamW. \textbf{Lion} has not yet shown a quality or efficiency advantage in this setting. The Pascal VOC benchmark therefore serves as a strong first step in a broader optimizer-comparison project that we plan to continue on richer segmentation datasets and across multiple task domains.
 
 \end{document}
+
